@@ -31,3 +31,16 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
+gem "haml-rails"
+
+group :test, :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'cucumber-rails'
+  gem 'email_spec'
+  gem 'factory_girl_rails'
+  gem 'faker'
+end

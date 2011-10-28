@@ -1,0 +1,22 @@
+%h2 What are we?
+
+We're going to be 
+%ul
+  %li Bigger than Google
+  %li Bigger than Facebook. 
+  %li Bigger than Apple.
+  %li The biggest thing ever
+
+%h2 Curious?
+
+Sorry, we can't let you in yet, but we'd be happy to send you an exclusive invite as soon as we're ready.
+
+= form_for(@invite) do |f|
+  .field
+    What email should we use to contact you: 
+    = f.text_field :email
+
+  .actions
+    = f.submit 'Request Invitation'
+
+
