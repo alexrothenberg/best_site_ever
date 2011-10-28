@@ -1,0 +1,92 @@
+// Place all the styles related to the Invites controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background:url("/assets/random_grey_variations.png");
+}
+
+#header {
+  width: 800px;
+  margin: 50px auto 0;
+
+  .subtitle {
+    margin:30px auto 20px;
+    text-align:center;
+    color:white;
+  }
+  h1 { 
+    margin: 0 0 10px;
+  	font-size: 60px;
+  	text-align: center;
+    font-weight: bold;
+    text-shadow: -8px 8px 0px #000;
+    color: #fff;
+    font-family: "Bangers", 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;;
+  }
+}
+
+#content {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+	background: #fff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+  border-radius: 15px;
+  border:10px solid #333;
+  
+  h2 { 
+  	font-size: 18px;
+  	font-weight: bold;
+    text-align: left;
+  }
+
+  #flash_messages {
+    .flash_message {
+      background: #dcdcdc;
+      padding: 6px 12px 6px 35px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+  }
+
+  form.new_invite {
+    text-align: center;
+    width:500px;
+  	margin:auto;
+    margin-top: 20px;
+    background: #aaa;
+    border-radius: 15px;
+    border:5px dashed #aaa;
+  }
+  
+}
+
+#footer {
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
+
+#preview_emails {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+	background: #aaa;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+  border-radius: 15px;
+  border:10px solid #333;
+  margin-top: 20px;
+}

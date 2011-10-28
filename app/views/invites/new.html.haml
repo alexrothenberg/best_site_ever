@@ -13,7 +13,7 @@ Sorry, we can't let you in yet, but we'd be happy to send you an exclusive invit
 
 = form_for(@invite) do |f|
   .field
-    What email should we use to contact you: 
+    == What #{f.label 'email', 'email'} should we use to contact you: 
     = f.text_field :email
 
   .actions

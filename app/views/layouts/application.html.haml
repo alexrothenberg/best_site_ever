@@ -20,10 +20,3 @@
     #footer
       == Copyright #{Time.now.year}
 
-    - if Rails.env.staging? || Rails.env.development?
-      #preview_emails
-        %h2 This section will not be here in production
-
-        %p You can #{link_to 'view the Emails that users would have received', letter_opener_letters_path}.
-
-        %p= link_to 'What is this about?', 'http://www.alexrothenberg.com/2011/10/24/using-letter-opener-to-view-sent-email-on-a-server.html' if !flash.empty? || (controller.controller_name == 'letters')
