@@ -19,6 +19,15 @@ end
 
 gem 'jquery-rails'
 
+gem 'letter_opener',  :git => "git://github.com/alexrothenberg/letter_opener.git", :branch => "on_a_server"
+
+# Heroku config
+group :staging, :production do
+  gem 'therubyracer'
+  gem 'pg'
+  gem 'thin'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
